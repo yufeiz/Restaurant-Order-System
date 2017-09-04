@@ -1,0 +1,78 @@
+[
+	{
+	    "name": "Shandong TASTE",
+	    "image": "image/sdt",
+	    "description": "Good Shandong restaurant",
+		"restaurantItems": [
+			{
+				"name": "chicken",
+				"image": "image/sdt_chicken",
+				"description":"Best chicken",
+				"price":"35"
+			},
+			{
+	        	"name": "duck",
+	        	"image": "image/sdt_duck",
+	        	"description":"Best duck",
+	        	"price":"33"
+	        },
+	        {
+	        	"name": "goose",
+	        	"image": "image/sdt_goose",
+	        	"description":"Best goose",
+	        	"price":"33.6"
+	        }
+	    ]
+  },
+  {
+    "name": "Beijing TASTE",
+    "image": "image/bjt",
+    "description": "Good Beijing restaurant",
+	"restaurantItems": [
+		{
+			"name": "bird",
+			"image": "image/bjt_bird",
+			"description":"It tastes good",
+			"price":"66.5"
+		},
+		{
+        	"name": "fish",
+        	"image": "image/bjt_fish",
+        	"description":"Best fish",
+        	"price":"33.5"
+        },
+        {
+        	"name": "shrimp",
+        	"image": "image/bjt_shrimp",
+        	"description":"Best shrimp",
+        	"price":"22.5"
+        }
+    ]
+  },
+  {
+    "name": "CHENGDU TASTE",
+    "image": "image/cdt",
+    "description": "good Chengdu restaurant",
+    "restaurantItems":
+    [
+			{
+            	"name": "beef",
+            	"image": "image/cdt_beef",
+            	"description":"Best beef",
+            	"price":"65.5"
+            },
+            {
+            	"name":"pork",
+            	"image": "image/cdt_pork",
+            	"description":"Best pork",
+            	"price":"33.6"
+            },
+            {
+            	"name":"crab",
+            	"image": "image/cdt_crab",
+            	"description":"Best crab",
+            	"price":"33"
+            }
+       ]
+   }
+]

@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: restaurant-item-payment
+  cloud:
+    stream:
+      bindings:
+        output: payment
+server:
+  port: 9007
+order:
+  account:
+   url: "http://localhost:8080/orderInfo/"
+bank:
+  info:
+    update:
+      url: "http://localhost:8080/bankInfo/update/"

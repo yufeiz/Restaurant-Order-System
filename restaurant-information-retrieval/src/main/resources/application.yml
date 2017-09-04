@@ -1,0 +1,14 @@
+server:
+  port: 8088
+restaurantInfo:
+  retrieval:
+    url: "http://localhost:8080/restaurantName/"
+restaurantItemsInfo:
+  retrieval:
+    url: "http://localhost:8080/restaurantId/items/"
+itemInfo:
+  retrieval:
+    url: "http://localhost:8080/restaurant/item/"
+spring:
+  application:
+    name: restaurant-information-retrieval

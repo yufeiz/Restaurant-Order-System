@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: restaurant-payment-processor
+  cloud:
+    stream:
+      bindings:
+        input: payment
+server:
+  port: 9008
+payment:
+  isPaid: "http://localhost:8080/orderInfo/isPaid/"

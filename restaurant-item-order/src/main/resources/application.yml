@@ -1,0 +1,11 @@
+server:
+  port: 9006
+items:
+  retrieval:
+    url: "http://localhost:8080/restaurant/item/"
+order:
+  repository:
+    url: "http://localhost:8080/orderInfo"
+spring:
+  application:
+    name: restaurant-item-order
